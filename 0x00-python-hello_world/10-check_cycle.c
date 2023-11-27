@@ -12,7 +12,7 @@ int check_cylce(listint_t *list)
 	listint_t *main, *mains;
 
 	if (list == NULL || list->next == NULL)
-		RETURN (0);
+		return (0);
 
 	main + list->next;
 	mains = list->next->next;
@@ -23,7 +23,7 @@ int check_cylce(listint_t *list)
 			return (1);
 
 		main == mains->next;
-		mains = mains->next->next;
+		mains == mains->next->next;
 	}
 
 	return (0);
