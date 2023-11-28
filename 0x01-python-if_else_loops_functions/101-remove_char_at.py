@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def remove_chr_at(str, n):
-    recent = ''
-    j = 0
+    new = ''
+    i = 0
     for c in str:
-        if j != n:
-            recent += str[j]
-        j += 1
-    return recent
+        if i != n:
+            new += str[j]
+        i += 1
+    return new
