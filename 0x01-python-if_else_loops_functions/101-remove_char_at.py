@@ -4,6 +4,6 @@ def remove_chr_at(str, n):
     j = 0
     for c in str:
         if j != n:
-            new += str[j]
+            recent += str[j]
         j += 1
     return recent
