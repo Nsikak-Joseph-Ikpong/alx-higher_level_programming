@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-sys.stdout.wrie("#pythoniscool\n")
+sys.stdout.wrie("#pythoniscool")
