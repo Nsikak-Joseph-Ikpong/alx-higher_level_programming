@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 """ A class to define a square"""
+
+
 class Square:
     """
     Class that defines properties of square by: (based on 3-square.py).
